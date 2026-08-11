@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sweet Crumbs Bakery - Freshly baked pastries, cakes, breads and cookies in Ottawa.">
+  <title>Sweet Crumbs Bakery | Home</title>
 
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand bakery-logo" href="index.html">
+          <span>Sweet Crumbs</span>
+          <small>Bakery</small>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <a class="btn bakery-btn" href="menu.html">Order Now</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero-section section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-6 hero-content">
+            <span class="eyebrow-badge">Artisan Bakery · Ottawa</span>
+
+            <h1>
+              Freshly Baked
+              <em>Happiness</em>
+              Every Day
+            </h1>
+
+            <p class="hero-text">
+              Handcrafted pastries, cakes, and breads made fresh with love using
+              quality ingredients. Visit us daily for something special.
+            </p>
+
+            <div class="d-flex flex-column flex-sm-row gap-3 hero-buttons">
+              <a class="btn bakery-btn" href="menu.html">View Menu</a>
+              <a class="btn bakery-btn-outline" href="menu.html">Order Now</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>15+</strong>
+                <span>Years Baking</span>
+              </div>
+
+              <div>
+                <strong>50+</strong>
+                <span>Daily Items</span>
+              </div>
+
+              <div>
+                <strong>4.9★</strong>
+                <span>Customer Rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img
+                src="images/hero.jpg"
+                srcset="images/hero.jpg 900w"
+                sizes="(max-width: 991px) 100vw, 520px"
+                alt="Fresh pastries displayed inside a bakery"
+              >
+
+              <div class="fresh-badge">
+                <strong>Baked Fresh Today</strong>
+                <span>Morning Batch Ready</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Featured Products -->
+    <section class="section-padding">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <span class="eyebrow">House Specialties</span>
+          <h2>Our Favorites</h2>
+          <div class="heading-line"></div>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <img
+                src="images/croissants.jpg"
+                srcset="images/croissants.jpg 600w"
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw"
+                alt="Golden butter croissants and pastries"
+              >
+
+              <div class="product-content">
+                <div class="product-title-row">
+                  <h3>Butter Croissants</h3>
+                  <span>$3.50</span>
+                </div>
+
+                <p>
+                  Flaky, golden, and freshly baked every morning with premium
+                  European butter.
+                </p>
+
+                <a href="menu.html" class="text-link">Learn More →</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <img
+                src="images/cupcakes.jpg"
+                srcset="images/cupcakes.jpg 600w"
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw"
+                alt="Beautiful frosted cupcakes"
+              >
+
+              <div class="product-content">
+                <div class="product-title-row">
+                  <h3>Signature Cupcakes</h3>
+                  <span>$4.25</span>
+                </div>
+
+                <p>
+                  Beautiful cupcakes made for every celebration — dozens of
+                  flavors available.
+                </p>
+
+                <a href="menu.html" class="text-link">Learn More →</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="product-card">
+              <img
+                src="images/cake.jpg"
+                srcset="images/cake.jpg 600w"
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 50vw, 33vw"
+                alt="Chocolate celebration cake"
+              >
+
+              <div class="product-content">
+                <div class="product-title-row">
+                  <h3>Custom Cakes</h3>
+                  <span>From $65</span>
+                </div>
+
+                <p>
+                  Exquisitely designed cakes crafted for your most special
+                  moments.
+                </p>
+
+                <a href="menu.html" class="text-link">Learn More →</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about-section section-padding">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-6">
+            <img
+              class="about-image"
+              src="images/baker.jpg"
+              srcset="images/baker.jpg 700w"
+              sizes="(max-width: 991px) 100vw, 50vw"
+              alt="Baker preparing fresh pastries"
+            >
+          </div>
+
+          <div class="col-lg-6">
+            <span class="eyebrow">Our Story</span>
+
+            <h2>
+              Made With <em>Passion</em>
+            </h2>
+
+            <div class="heading-line"></div>
+
+            <p>
+              Sweet Crumbs Bakery creates handcrafted desserts and baked goods
+              inspired by traditional recipes and modern flavors. Every item
+              that leaves our kitchen is made with the finest ingredients and
+              a whole lot of heart.
+            </p>
+
+            <p>
+              From our morning croissants to our custom celebration cakes, we
+              believe every bite should feel like a moment worth savoring.
+            </p>
+
+            <a class="btn bakery-btn" href="contact.html">About Us</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="section-padding">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <span class="eyebrow">What People Say</span>
+          <h2>Loved by Ottawa</h2>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark">“</div>
+
+          <blockquote>
+            Best bakery in town! Everything tastes homemade and fresh. The
+            butter croissants are life-changing and the custom cake they made
+            for my daughter was absolutely stunning.
+          </blockquote>
+
+          <div class="testimonial-info">
+            <div class="avatar">S</div>
+
+            <div>
+              <strong>Sarah Mitchell</strong>
+              <span>Ottawa, ON · Verified Customer</span>
+            </div>
+
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container text-center">
+        <h2>Taste the difference today</h2>
+
+        <p>
+          Order online for pickup or stop by our bakery. Fresh batches ready
+          every morning.
+        </p>
+
+        <a class="btn bakery-btn" href="menu.html">Browse Our Menu</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="row g-5">
+
+        <div class="col-md-4">
+          <div class="footer-logo">
+            <span>Sweet Crumbs</span>
+            <small>Bakery</small>
+          </div>
+
+          <p>
+            Freshly baked happiness every day. Handcrafted with love using the
+            finest ingredients since 2010.
+          </p>
+
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">I</a>
+            <a href="#" aria-label="Facebook">F</a>
+            <a href="#" aria-label="Pinterest">P</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Visit Us</h3>
+
+          <ul class="visit-list">
+            <li>📍 123 Sweet Street, Ottawa, ON</li>
+            <li>🕐 Mon–Sat: 8:00 AM – 6:00 PM</li>
+            <li>📞 (613) 555-1234</li>
+            <li>✉️ hello@sweetcrumbs.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Sweet Crumbs Bakery. All rights reserved.</p>
+        <p>Made with ♥ in Ottawa</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>
